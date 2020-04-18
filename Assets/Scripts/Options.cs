@@ -13,6 +13,13 @@ public class Options : MonoBehaviour
     public void Slider_change(int c)
     {
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
     public void JeuversOptions()
     {
         SceneManager.LoadScene("Options");
@@ -23,10 +30,6 @@ public class Options : MonoBehaviour
         SceneManager.LoadScene("Regles");
     }
     public void OptionsversMenu()
-    {
-        SceneManager.LoadScene("Menu");
-    }
-    public void FinversMenu()
     {
         SceneManager.LoadScene("Menu");
     }

@@ -117,6 +117,13 @@ public class Resultats : MonoBehaviour
             j++;
         }
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
     public void ResultstoMenu()
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);

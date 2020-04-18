@@ -1,0 +1,3 @@
+OK - Empecher le poison d'affecter le joueur quand il a pris des soins
+OK - Mettre un blocage du poison pour qu'il ne tue pas et lui enlève maximum 1 point de vie
+OK - Faire trembler la cam quand il s'approche du trou et le prevenir

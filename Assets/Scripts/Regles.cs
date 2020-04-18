@@ -8,6 +8,13 @@ using UnityEngine;
 
 public class Regles : MonoBehaviour
 {
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
     public void ReglesversPrejeu()
     {
         SceneManager.LoadScene("Prejeu");

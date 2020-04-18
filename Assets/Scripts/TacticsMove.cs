@@ -25,8 +25,6 @@ public class TacticsMove : MonoBehaviour
         tiles = GameObject.FindGameObjectsWithTag("Tile");
 
         halfHeight = GetComponent<Collider>().bounds.extents.y;
-
-        //TurnManager.AddUnit(this);
     }
 
     public void GetCurrentTile()
