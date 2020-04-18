@@ -836,7 +836,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: f0b7bef967bc5742591c80a09e6e7d05
+      Hash: cbbe65f8005b92a0d3a37cee12787789
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMove
@@ -1378,4 +1378,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Victoire.unity
   - Assets/Scenes/Defaite.unity
   - Assets/Scenes/Regles.unity
-  playerPath: C:/Users/montchea/Documents/YNOV/YDAYS/Volumique/ChessGameInUnity-ProjectMaterials/JeuV/Volumika.apk
+  playerPath: C:/Users/montchea/Documents/YNOV/YDAYS/Volumique/JeuV/Volumika.apk
